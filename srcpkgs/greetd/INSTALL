@@ -1,6 +1,0 @@
-case ${ACTION} in
-post)
-	chown _greeter:_greeter etc/greetd
-	chown _greeter:_greeter etc/greetd/config.toml
-	;;
-esac
